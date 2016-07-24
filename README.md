@@ -5,13 +5,13 @@
 * 簡単な操作ですぐに [ニフティクラウドmobile backend](http://mb.cloud.nifty.com/)の機能を体験いただけます★☆
 * [ニフティクラウドmobile backend](http://mb.cloud.nifty.com/)の『会員管理機能』を利用したサンプルプロジェクトです
 * できること
-** Loginsigninシーンでユーザーのログイン、サインインができます
+* Loginsigninシーンでユーザーのログイン、サインインができます
     ![概要1](/readme-img/demoLoginSignIn.png)
 
-** LogOutシーンでロール機能を使い会員をグルーピングできます。また、ログイン中のユーザーの会員情報にロールをリレーションで関連付けられます
+* LogOutシーンでロール機能を使い会員をグルーピングできます。また、ログイン中のユーザーの会員情報にロールをリレーションで関連付けられます
     ![概要2](/readme-img/addRoleRelation.png)
 
-** ログインをしている会員から、ロールの一覧を取得できます
+* ログインをしている会員から、ロールの一覧を取得できます
     ![概要3](/readme-img/viewRoleList.png)
     
 
@@ -69,9 +69,6 @@
 
 ### 5. 動作確認
 * Unity画面で上部真ん中の実行ボタン（さんかくの再生マーク）をクリックします
-
-![画像12](![画像1](/readme-img/Top.png)
-
 * シミュレーターが起動したら、Login&SignIn画面が表示されます
 * 初回は__`SignIn`__ ボタンをクリックして、会員登録を行います
 
@@ -95,7 +92,6 @@
 
 * 保存に成功したら、[ニフティクラウドmobile backend](http://mb.cloud.nifty.com/)のダッシュボードから確認してみましょう！
 
-![画像1](/readme-img/Top.png)
 
 ## 解説
 サンプルプロジェクトに実装済みの内容のご紹介
@@ -110,7 +106,7 @@ https://github.com/hounenhounen/UnityLoginApp
 
 ####ロジック
 * `Role.cs`にロジックを書いています
-** まず、ロールの追加部分について記載します。
+* まず、ロールの追加部分について記載します。コメントアウト部分に各所の説明があるのでそちらをご参考にしてください
 
 `Role.cs.cs`
 
@@ -155,7 +151,7 @@ public void AddRole(){
     });
 }
 ```
-
+* 次に、ロールの一覧取得について記載します。コメントアウト部分に各所の説明があるのでそちらをご参考にしてください
 
 ```csharp
 //現在ログイン中のユーザーに関連付いているロール情報を取得する
@@ -167,7 +163,7 @@ public void seeBelongRole(){
             //エラー処理
             UnityEngine.Debug.Log ("ユーザー取得に失敗: " + e.ErrorMessage);
         } else {
-            //親のリレーション取得
+            //ユーザーのリレーション取得
             NCMBRelation<NCMBRole> relation = currentUser.GetRelation<NCMBRole> ("Role");
             NCMBQuery<NCMBRole> query = relation.GetQuery ();
 
