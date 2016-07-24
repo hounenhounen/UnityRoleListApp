@@ -47,9 +47,9 @@
 
 ![画像5](https://github.com/natsumo/SwiftLoginApp/blob/master/readme-img/005.png)
 
-### 2. [GitHub](https://github.com/hounenhounen/UnityLoginApp)からサンプルプロジェクトのダウンロード
+### 2. [GitHub](https://github.com/hounenhounen/UnityRoleListApp)からサンプルプロジェクトのダウンロード
 
-* この画面([GitHub](https://github.com/hounenhounen/UnityLoginApp))の![画像10](https://github.com/natsumo/SwiftLoginApp/blob/master/readme-img/010.png)ボタンをクリックし、さらに![画像11](https://github.com/natsumo/SwiftLoginApp/blob/master/readme-img/011.PNG)ボタンをクリックしてサンプルプロジェクトをMacにダウンロードします
+* この画面([GitHub](https://github.com/hounenhounen/UnityRoleListApp))の![画像10](https://github.com/natsumo/SwiftLoginApp/blob/master/readme-img/010.png)ボタンをクリックし、さらに![画像11](https://github.com/natsumo/SwiftLoginApp/blob/master/readme-img/011.PNG)ボタンをクリックしてサンプルプロジェクトをMacにダウンロードします
 
 ### 3. Unityでアプリを起動
 
