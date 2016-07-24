@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{9269CAD5-71DB-C3E4-5400-DC317E059DAC}") = "UnityRoleListApp", "Assembly-CSharp.csproj", "{4E7EF0F7-3C0F-B4F4-1645-122281C867A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E7EF0F7-3C0F-B4F4-1645-122281C867A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E7EF0F7-3C0F-B4F4-1645-122281C867A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E7EF0F7-3C0F-B4F4-1645-122281C867A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E7EF0F7-3C0F-B4F4-1645-122281C867A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
